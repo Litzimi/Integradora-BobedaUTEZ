@@ -1,2 +1,66 @@
-.container{
+.imagenNav {
+    display: block;
+    margin: auto;
+  }
+  
+  .navbar-nav {
+    width: 100%;
+  }
+  
+  .navbar-nav .nav-item1 {
+    padding-left: 15px;
+  }
+.navbar-nav .nav-link {
+  font-size: 20px; 
 }
+.navbar-nav .dropdown-menu .dropdown-item {
+    font-size: 19px;
+  }
+  .card{
+    background-color: #039B4F;
+  }
+  
+
+
+  .cardR{
+    background-color: #039B4F ;
+  }
+  .cardE{
+    background-color: #039B4F ;
+  }
+  .card {
+    background-color: #DFFFD9; 
+    border: none; 
+    border-radius: 12px; 
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+}
+
+.card img {
+    width: 80px; 
+    height: 50px;
+    filter: invert(20%); 
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.card p {
+    font-weight: bold; 
+    font-size: 24px;
+    margin: 0;
+    align-self: flex-end; 
+}
+
+  
